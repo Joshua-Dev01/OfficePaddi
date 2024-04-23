@@ -1,0 +1,24 @@
+ <svg
+          height="253"
+          viewBox="0 0 448 253"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          className="-mt-32 w-[30%] "
+        >
+          <rect
+            x="-199"
+            y="158.818"
+            width="565"
+            height="94.3602"
+            transform="rotate(-7.26281 -199 158.818)"
+            fill="#7A91EF"
+          />
+          <rect
+            x="-125.794"
+            y="67.022"
+            width="565"
+            height="101"
+            transform="rotate(-6.81265 -125.794 67.022)"
+            fill="#0D333E"
+          />
+        </svg>

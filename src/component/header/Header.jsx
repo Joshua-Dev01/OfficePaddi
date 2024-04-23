@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { HeaderButtons } from '../HeaderButtons'
+import { HeaderButtons } from '../HeaderButton/HeaderButtons'
 import { useState } from "react";
 import { IoIosMenu } from 'react-icons/io';
 import { IoClose } from 'react-icons/io5';

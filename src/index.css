@@ -2,3 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Hero section bg */
+.Hero-white-bg {
+  background: url(/public/Home-page/Home-Hero/Hero_bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60%;
+  height: 100vh;
+}
+/*End of Hero section bg */
+
+/* steps bg */
+.steps {
+  background: url(/public/Home-page/steps/stepsBg.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
