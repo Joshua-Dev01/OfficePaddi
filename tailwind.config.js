@@ -12,7 +12,7 @@ export default {
         lap:{"max" : "970px"},
         sm:{"max" : "550px"},
         xsm:{"max" : "500px"},
-        sv:{"max" : "1000px"},  
+        sv:{"max" : "1000px"},     
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",

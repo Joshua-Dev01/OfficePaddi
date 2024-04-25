@@ -164,7 +164,7 @@ export const Home = () => {
       {/*  ***************STEPS TO USE ******************  */}
       <div className="steps">
         <h1 className="text-3xl text-center text-[#024D39]">
-          Steps to <span className="border-b-4 border-[#EA5317]">use</span>{" "}
+          Steps to <span className="border-b-4 border-[#EA5317]">use</span>
         </h1>
 
         <section className="grid grid-cols-3 mx-16 gap-14 lap:grid-cols-2 my-20 lap:mx-5 xsm:grid-cols-1 ">
@@ -173,14 +173,14 @@ export const Home = () => {
               01
               <GoHorizontalRule className="mt-1" />
               <span className="text-[#024D39]">
-                {" "}
+               
                 Subscribe to your desire plan
-              </span>{" "}
+              </span>
             </h1>
             <p>
               Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
               vulputate libero et velit interdum, ac aliquet odio mattis. Class
-              aptent{" "}
+              aptent
             </p>
           </div>
 
@@ -189,14 +189,14 @@ export const Home = () => {
               01
               <GoHorizontalRule className="mt-1" />
               <span className="text-[#024D39]">
-                {" "}
+                
                 Subscribe to your desire plan
-              </span>{" "}
+              </span>
             </h1>
             <p>
               Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
               vulputate libero et velit interdum, ac aliquet odio mattis. Class
-              aptent{" "}
+              aptent
             </p>
           </div>
 
@@ -205,14 +205,14 @@ export const Home = () => {
               01
               <GoHorizontalRule className="mt-1" />
               <span className="text-[#024D39]">
-                {" "}
+             
                 Subscribe to your desire plan
-              </span>{" "}
+              </span>
             </h1>
             <p>
               Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
               vulputate libero et velit interdum, ac aliquet odio mattis. Class
-              aptent{" "}
+              aptent
             </p>
           </div>
 
@@ -221,14 +221,14 @@ export const Home = () => {
               01
               <GoHorizontalRule className="mt-1" />
               <span className="text-[#024D39]">
-                {" "}
+           
                 Subscribe to your desire plan
-              </span>{" "}
+              </span>
             </h1>
             <p>
               Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
               vulputate libero et velit interdum, ac aliquet odio mattis. Class
-              aptent{" "}
+              aptent
             </p>
           </div>
 
@@ -237,14 +237,14 @@ export const Home = () => {
               01
               <GoHorizontalRule className="mt-1" />
               <span className="text-[#024D39]">
-                {" "}
+              
                 Subscribe to your desire plan
-              </span>{" "}
+              </span>
             </h1>
             <p>
               Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
               vulputate libero et velit interdum, ac aliquet odio mattis. Class
-              aptent{" "}
+              aptent
             </p>
           </div>
 
@@ -253,14 +253,14 @@ export const Home = () => {
               01
               <GoHorizontalRule className="mt-1" />
               <span className="text-[#024D39]">
-                {" "}
+              
                 Subscribe to your desire plan
-              </span>{" "}
+              </span>
             </h1>
             <p>
               Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
               vulputate libero et velit interdum, ac aliquet odio mattis. Class
-              aptent{" "}
+              aptent
             </p>
           </div>
         </section>

@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background: white;
+}
+
 /* Hero section bg */
 .Hero-white-bg {
   background: url(/public/Home-page/Home-Hero/Hero_bg.svg);
@@ -18,4 +22,13 @@
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
+}
+
+/* SERVICE */
+.greenBG {
+  background: url(/public/service-page/software/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 7rem 0 5rem 0;
+  width: 100%;
 }
