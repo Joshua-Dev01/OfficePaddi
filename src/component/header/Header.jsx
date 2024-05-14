@@ -35,7 +35,7 @@ export const Header = () => {
     </li>
 
     <li>
-    <NavLink exact to="/contact">Contact us</NavLink>
+    <NavLink exact to="/contact" >Contact us</NavLink>
     </li>
 
     <li>
@@ -71,11 +71,11 @@ export const Header = () => {
   </li>
 
     <li>
-    <NavLink exact to="/contact">Contact us</NavLink>
+    <NavLink exact to="/contact" className="whitespace-nowrap">Contact us</NavLink>
     </li>
 
      <li>
-    <NavLink exact to="/service">Our Services</NavLink>
+    <NavLink exact to="/service" className="whitespace-nowrap">Our Services</NavLink>
     </li>
 
     <li>

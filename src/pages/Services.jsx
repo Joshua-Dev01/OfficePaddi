@@ -6,11 +6,10 @@ import statistic from "/service-page/serve-you/statistic.svg";
 import system from "/service-page/system/support-systems.svg";
 import reliable from "/service-page/system/reliable.svg";
 import reliableTwo from "/service-page/system/reliable2.svg";
-import planHRM from "/service-page/plan/crm.svg";
-import planPOS from "/service-page/plan/pos.svg";
-import planMGT from "/service-page/plan/MGT.svg";
 import double from "/service-page/software/double-img.svg";
+import draw from "/service-page/plan/ourservice.svg";
 import { Footer } from "../component/Footer/Footer";
+import ServiceCard from "../component/service-card/ServiceCard";
 export const Services = () => {
   return (
     <>
@@ -118,20 +117,109 @@ export const Services = () => {
           </div>
         </div>
       </div>
-      {/* ******************END Good Management System************************* */}
+      {/* ******************END Good Management System************************* */}c
 
       {/* ******************PLAN************************* */}
       <div>
         <h1 className="text-3xl text-center my-16">
           Choose a Plan that suit you
         </h1>
-        <div className="flex items-center justify-center gap-5 bg-[#F3F2EF] flex-wrap">
-          <img src={planHRM} alt="" />
-          <img src={planPOS} alt="" />
-          <img src={planMGT} alt="" />
-        </div>
+        <ServiceCard />
       </div>
       {/* ******************END OF PLAN************************* */}
+
+      {/* ******************OUR SERVICES************************* */}
+      <section className="grid grid-cols-3 mx-10 my-32 ipad:grid-cols-2 xsm:grid-cols-1">
+        <div className="flex gap-3">
+          <img src={draw} alt="" className="w-10" />
+          <div className="mt-10">
+            <h1 className="font-bold">HRM</h1>
+            <p>
+              Porem ipsum dolor sit amet, <br /> consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex gap-3">
+          <img src={draw} alt="" className="w-10" />
+          <div className="mt-10">
+            <h1 className="font-bold">HRM</h1>
+            <p>
+              Porem ipsum dolor sit amet, <br /> consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex gap-3">
+          <img src={draw} alt="" className="w-10" />
+          <div className="mt-10">
+            <h1 className="font-bold">HRM</h1>
+            <p>
+              Porem ipsum dolor sit amet, <br /> consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex gap-3">
+          <img src={draw} alt="" className="w-10" />
+          <div className="mt-10">
+            <h1 className="font-bold">HRM</h1>
+            <p>
+              Porem ipsum dolor sit amet, <br /> consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex gap-3">
+          <img src={draw} alt="" className="w-10" />
+          <div className="mt-10">
+            <h1 className="font-bold">HRM</h1>
+            <p>
+              Porem ipsum dolor sit amet, <br /> consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex gap-3">
+          <img src={draw} alt="" className="w-10" />
+          <div className="mt-10">
+            <h1 className="font-bold">HRM</h1>
+            <p>
+              Porem ipsum dolor sit amet, <br /> consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex gap-3">
+          <img src={draw} alt="" className="w-10" />
+          <div className="mt-10">
+            <h1 className="font-bold">HRM</h1>
+            <p>
+              Porem ipsum dolor sit amet, <br /> consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex gap-3">
+          <img src={draw} alt="" className="w-10" />
+          <div className="mt-10">
+            <h1 className="font-bold">HRM</h1>
+            <p>
+              Porem ipsum dolor sit amet, <br /> consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex gap-3">
+          <img src={draw} alt="" className="w-10" />
+          <div className="mt-10">
+            <h1 className="font-bold">HRM</h1>
+            <p>
+              Porem ipsum dolor sit amet, <br /> consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+      </section>
 
       <div>
         <div className="flex items-center justify-center mx-16 lap:flex-wrap lap:text-center">

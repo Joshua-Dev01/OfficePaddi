@@ -4,6 +4,8 @@
 
 body {
   background: white;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 /* Hero section bg */
@@ -11,8 +13,9 @@ body {
   background: url(/public/Home-page/Home-Hero/Hero_bg.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 60%;
+  width: 57%;
   height: 100vh;
+  overflow: hidden;
 }
 /*End of Hero section bg */
 

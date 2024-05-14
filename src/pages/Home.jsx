@@ -14,7 +14,7 @@ export const Home = () => {
   return (
     <>
       {/* ***************HERO SECTION****************** */}
-      <div className=" bg-[#0D333E] w-[100%] h-[105vh]  xs:h-[120vh] ">
+      <div className=" bg-[#0D333E] w-[100vw] h-[105vh]  xs:h-[120vh] overflow-hidden ">
         <div className="flex items-center justify-between xs:text-center ">
           <div className="pl-20">
             <h1 className="text-4xl text-white leading-[3.5rem]">
@@ -23,7 +23,7 @@ export const Home = () => {
             <p className="text-white space-x-8 mb-12">
               The Bst Mannagment software{" "}
             </p>
-            <button className="bg-white shadow-lg py-2 px-10 rounded-[20px] text-[#024D39]">
+            <button className="bg-white shadow-lg py-2 px-10 rounded-[20px] whitespace-nowrap text-[#024D39]">
               Start Free trial
             </button>
           </div>
@@ -32,7 +32,7 @@ export const Home = () => {
             <img
               src={dash}
               alt=""
-              className="w-[42%] absolute top-[16rem] right-16 xs:top-[35rem] xs:left-9"
+              className="w-[42%] absolute top-[16rem] right-16 xs:top-[35rem] xs:left-24"
             />
           </div>
         </div>
@@ -41,13 +41,13 @@ export const Home = () => {
 
       {/*  ***************WHY CHOOSE US******************  */}
       <div>
-        <div className="mt-32 flex items-center justify-between px-20 overflow-x-hidden lap:justify-center lap:gap-16 lap:mt-52 lap:flex-wrap">
+        <div className="w-full mt-32 flex items-center justify-between px-20 overflow-x-hidden lap:justify-center lap:gap-16 lap:mt-52 lap:flex-wrap">
           <div className="-mt-40 lap:-m-0">
             <h1 className="text-[#2D3250] text-3xl mb-10 lap:text-center">
               Why
               <span className="border-b-4 border-[#024D39]"> choose us?</span>
             </h1>
-            <p className="w-80 lap:text-center">
+            <p className="w-80 lap:text-center xsm:w-56">
               Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
               vulputate libero et velit interdum, ac aliquet odio mattis. Class
               aptent taciti sociosqu ad litora torquent per conubia nostra, per
@@ -56,12 +56,12 @@ export const Home = () => {
             </p>
           </div>
 
-          <div className="flex gap-10 sm:mb-20 sm:text-center sm:gap-0">
-            <img src={Chooseimg} alt="" className="w-[5rem]" />
+          <div className="flex gap-10 sm:mb-20 sm:text-center xsm:items-center justify-center sm:gap-0">
+            <img src={Chooseimg} alt="" className="w-[5rem] sr:hidden" />
             <section className="">
-              <div className="">
+              <div className="w-[100%]">
                 <h1 className="text-2xl font-semibold">Accuracy </h1>
-                <p className="w-72 xs:px-2">
+                <p className="w-72 xs:px-2 xsm:w-406">
                   Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                   vulputate libero et velit interdum, ac aliquet odio mattis.
                 </p>
@@ -101,7 +101,7 @@ export const Home = () => {
           <div>
             <img src={Hrmone} alt="" />
             <h1 className="my-5 font-bold text-2xl"> HRM & CRM</h1>
-            <p className="w-96">
+            <p className="xsm:w-56">
               Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
               vulputate libero et velit interdum, ac aliquet odio mattis. Class
               aptent taciti sociosqu ad litora torquent per conubia nostra, per
@@ -119,7 +119,7 @@ export const Home = () => {
           <div>
             <img src={pos_two} alt="" />
             <h1 className="my-5 font-bold text-2xl"> POS & PROJECT MGT</h1>
-            <p className="w-96">
+            <p className="xsm:w-56">
               Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
               vulputate libero et velit interdum, ac aliquet odio mattis. Class
               aptent taciti sociosqu ad litora torquent per conubia nostra, per
@@ -135,7 +135,7 @@ export const Home = () => {
           <div>
             <img src={stockmgt} alt="" />
             <h1 className="my-5 font-bold text-2xl"> STOCK MGT & ACCOUNTING</h1>
-            <p className="w-96">
+            <p className="xsm:w-56">
               Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
               vulputate libero et velit interdum, ac aliquet odio mattis. Class
               aptent taciti sociosqu ad litora torquent per conubia nostra, per
@@ -151,7 +151,7 @@ export const Home = () => {
         <img
           src={ServiceStar}
           alt=""
-          className="absolute left-[47rem] top-[125rem]"
+          className="absolute left-[47rem] top-[125rem] lap:hidden"
         />
         <img
           src={ServiceStar}
@@ -173,7 +173,6 @@ export const Home = () => {
               01
               <GoHorizontalRule className="mt-1" />
               <span className="text-[#024D39]">
-               
                 Subscribe to your desire plan
               </span>
             </h1>
@@ -189,7 +188,6 @@ export const Home = () => {
               01
               <GoHorizontalRule className="mt-1" />
               <span className="text-[#024D39]">
-                
                 Subscribe to your desire plan
               </span>
             </h1>
@@ -205,7 +203,6 @@ export const Home = () => {
               01
               <GoHorizontalRule className="mt-1" />
               <span className="text-[#024D39]">
-             
                 Subscribe to your desire plan
               </span>
             </h1>
@@ -221,7 +218,6 @@ export const Home = () => {
               01
               <GoHorizontalRule className="mt-1" />
               <span className="text-[#024D39]">
-           
                 Subscribe to your desire plan
               </span>
             </h1>
@@ -237,7 +233,6 @@ export const Home = () => {
               01
               <GoHorizontalRule className="mt-1" />
               <span className="text-[#024D39]">
-              
                 Subscribe to your desire plan
               </span>
             </h1>
@@ -253,7 +248,6 @@ export const Home = () => {
               01
               <GoHorizontalRule className="mt-1" />
               <span className="text-[#024D39]">
-              
                 Subscribe to your desire plan
               </span>
             </h1>
