@@ -24,11 +24,11 @@ export const Contact = () => {
   };
   return (
     <>
-      <div className="relative top-[10rem] flex gap-20 mx-20 items-center mb-56 justify-around ipad:block ">
+      <div className="relative top-[10rem] flex gap-20 mx-20  mb-56  ipad:block sr:mx-3 ">
         <div className="ipad:mb-16">
-          <h1 className="font-bold text-3xl text-[#0D333E] mb-6">Get In Touch</h1>
-          <p>Send us a message</p>
-          <p>
+          <h1 className="font-bold text-3xl text-[#0D333E] mb-6 whitespace-nowrap">Get In Touch</h1>
+          <p className="whitespace-nowrap">Send us a message</p>
+          <p className="">
             Dorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
             vulputate libero et velit interdum, ac aliquet odio mattis. Class
             aptent taciti sociosqu ad litora torquent per conubia nostra, per
