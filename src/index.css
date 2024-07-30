@@ -29,6 +29,7 @@ body {
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
+  width: 100%;
 }
 
 /* SERVICE */
@@ -38,4 +39,7 @@ body {
   background-repeat: no-repeat;
   padding: 7rem 0 5rem 0;
   width: 100%;
+}
+.shadow{
+  box-shadow: 0 0 5px gray;
 }

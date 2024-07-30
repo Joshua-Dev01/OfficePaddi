@@ -5,15 +5,16 @@ import { NavLink } from "react-router-dom";
 export const Footer = () => {
   return (
     <>
-      <footer className="flex items-center justify-center m gap-28 border-t-2 pt-10 bs:flex-wrap bs:justify-start bs:ml-10 mx-12 mv:mx-4 mv:text-[20px]">
+      <footer className="flex items-center justify-center gap-28 border-t pt-10 bs:flex-wrap bs:justify-start bs:ml-10 mx-12 mv:mx-4 ">
         <div className="-mt-36 bs:mt-10 ">
           <NavLink exact to="/" className="w-28 ">
-            <img src="logo1.png" alt="" className="w-36" />
+            <img src="logo2.png" alt="" className="w-36" />
           </NavLink>
-          <p className="mb-10 mv:w-[100%]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-            dictum aliquet accumsan porta lectus ridiculus in mattis. Netus
-            sodales involutpat ullamcorper amet adipiscing fermentum.
+          <p className="my-10 mv:w-[100%]">
+            At Office Padi, we believe in simplifying business management for
+            business owners. That's why we offer comprehensive services
+            seamlessly integrated in one place, giving you control over your
+            business.
           </p>
           {/* **********SOCIAL MEDIA ICON************* */}
           <div className="flex gap-6">
@@ -25,18 +26,18 @@ export const Footer = () => {
           <div className="leading-10">
             <h1 className="text-[20px] mb-5">Company</h1>
             <p>
-              <NavLink exact to="/">
+              <NavLink exact to="/" className="whitespace-nowrap">
                 About us
               </NavLink>
             </p>
             <p>
-              <NavLink exact to="/contact">
+              <NavLink exact to="/contact" className="whitespace-nowrap">
                 Contact us
               </NavLink>
             </p>
             <p>
               {" "}
-              <NavLink exact to="/service">
+              <NavLink exact to="/service" className="whitespace-normal">
                 Our Services
               </NavLink>
             </p>
@@ -45,24 +46,24 @@ export const Footer = () => {
           <div className="leading-10 xsm:my-16">
             <h1 className="text-[20px] mb-5">Help</h1>
             <p>
-              <NavLink exact to="/">
+              <NavLink exact to="/" className="whitespace-nowrap">
                 Customer Support
               </NavLink>
             </p>
             <p>
-              <NavLink exact to="/contact">
+              <NavLink exact to="/contact" className="whitespace-nowrap">
                 Subscription support
               </NavLink>
             </p>
             <p>
               {" "}
-              <NavLink exact to="/service">
+              <NavLink exact to="/service" className="whitespace-nowrap">
                 Terms & Conditions
               </NavLink>
             </p>
             <p>
               {" "}
-              <NavLink exact to="/service">
+              <NavLink exact to="/service" className="whitespace-nowrap">
                 Privacy Policy
               </NavLink>
             </p>
@@ -89,13 +90,13 @@ export const Footer = () => {
             </p>
             <p>
               {" "}
-              <NavLink exact to="/service">
+              <NavLink exact to="/service" className="whitespace-nowrap">
                 Project MGT{" "}
               </NavLink>
             </p>
             <p>
               {" "}
-              <NavLink exact to="/service">
+              <NavLink exact to="/service" className="whitespace-nowrap">
                 {" "}
                 Stock MGT{" "}
               </NavLink>

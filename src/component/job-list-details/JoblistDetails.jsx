@@ -22,7 +22,9 @@ export const JoblistDetails = () => {
         <h1 className="text-3xl font-semibold ml-20 mt-10"> <NavLink exact to="/" className="text-3xl text-gray-400 ipad:text-center">Job List</NavLink>  details</h1>
         <section className="flex mx-10 gap-11 mt-10 ipad:block ipad:mx-4">
           <div>
-            <h1 className="font-bold">Product Researcher</h1>
+            <h1 className="font-bold"><NavLink></NavLink> Product Researcher   <NavLink exact to="/joblist">
+              About us
+            </NavLink></h1>
             <p>Development</p>
 
             <div className=" mt-10 flex flex-wrap space-x-5 text-[15px] ipad:mx-0">

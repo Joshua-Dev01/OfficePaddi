@@ -26,13 +26,13 @@ export const Contact = () => {
     <>
       <div className="relative top-[10rem] flex gap-20 mx-20  mb-56  ipad:block sr:mx-3 ">
         <div className="ipad:mb-16">
-          <h1 className="font-bold text-3xl text-[#0D333E] mb-6 whitespace-nowrap">Get In Touch</h1>
-          <p className="whitespace-nowrap">Send us a message</p>
+          <h1 className="font-bold text-3xl text-[#0D333E] mb-2 whitespace-nowrap">
+            Get In Touch
+          </h1>
+          <p className="whitespace-nowrap mb-6">Send us a message</p>
           <p className="">
-            Dorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            vulputate libero et velit interdum, ac aliquet odio mattis. Class
-            aptent taciti sociosqu ad litora torquent per conubia nostra, per
-            inceptos himenaeos.
+            Have a question or need assistance? Fill out our contact form, and
+            our team will get back to you promptly
           </p>
 
           <form action="" ref={form} onSubmit={sendEmail} className="mt-10">
@@ -70,30 +70,30 @@ export const Contact = () => {
               ></textarea>
             </div>
             <div className="flex items-center justify-end xsm:justify-center ipad:justify-center">
-            <input
-              type="submit"
-              value="Send"
-              className="cursor-pointer bg-[#0D333E] text-white px-16 py-2 mt-5 flex rounded-[5px] "
-            />
+              <input
+                type="submit"
+                value="Send"
+                className="cursor-pointer bg-[#0D333E] text-white px-16 py-2 mt-5 flex rounded-[5px] "
+              />
             </div>
           </form>
         </div>
 
         {/* *******************LOCATION************************ */}
         <div className="border-l-[1px] border-black pl-10  ">
-          <h1 className="mb-5">Call Us</h1>
+          <h1 className="mb-5 font-semibold">Call Us</h1>
           <p className="mb-5">
-            Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            vulputate libero et velit interdum, ac aliquet odio mattis.
+            Want to speak directly with our support team? Give us a call at the
+            number below, and we'll be happy to help
           </p>
           <span className="flex mb-10">
             <img src={phoneicon} alt="" />
-           <a href="tel:+234-708-676-8271">+234-708-676-8271</a>
+            <a href="tel:+234-708-676-8271">+234-708-676-8271</a>
           </span>
           <h1 className="mb-5">Visit Us</h1>
           <p>
-            Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            vulputate libero et velit interdum, ac aliquet odio mattis.
+            Want to stop by for a face-to-face consultation? Find us at the
+            address below , and let's discuss how we can support your business
           </p>
           <h2 className="mt-5 font-bold text-center">23, avenur raod. Tx</h2>
         </div>

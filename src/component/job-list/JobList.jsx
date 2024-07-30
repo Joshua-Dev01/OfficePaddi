@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import Dollar from "/joblist/dollar.svg";
 import Location from "/joblist/location.svg";
 import Time from "/joblist/time.svg";
+
 export const JobList = () => {
   return (
     <>

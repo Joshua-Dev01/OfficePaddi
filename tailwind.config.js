@@ -15,11 +15,21 @@ export default {
         mv: { max: "400px" },
         sr: { max: "372px" },
       },
+      colors: {
+        'light-gray': '#F9F9F9',
+        'navy': '#0D333E',
+        'gray': '#E3DFDF',
+        'green': '#0FD46C',
+      },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
       backgroundImage: {
         "custom-pattern": "url('public/support-page/accordionBg.svg')",
+      },
+      backgroundColor: {
+        "green": "#0FD46C",
+        "light-gray": "#F3F2EF",
       },
     },
   },

@@ -1,0 +1,77 @@
+{
+    "status": 200,
+    "message": "OK",
+    "data": [
+        {
+            "id": 2,
+            "title": "Marketer",
+            "requirements": "xxlxlxkkkc",
+            "description": "jsskksksksk",
+            "departmentId": 5,
+            "department": {
+                "id": 5,
+                "title": "Accounting"
+            },
+            "employmentTypeId": 3,
+            "employmentType": {
+                "id": 3,
+                "title": "Part time"
+            },
+            "locationTypeId": 1,
+            "locationType": {
+                "id": 1,
+                "title": "Remote"
+            },
+            "salary": "200000",
+            "experience": "ddkdkdd",
+            "vacancy": "",
+            "phoneNumber": "01992020202",
+            "email": "emmanuels@gmail.com",
+            "address": "New york",
+            "city": "Delta",
+            "state": null,
+            "country": "Nigeria",
+            "deadline": "2024-07-18T00:00:00.000Z",
+            "datePosted": null,
+            "dateModified": "2024-07-05T08:23:58.954Z",
+            "dateCreated": "2024-07-05T08:23:58.954Z"
+        },
+        {
+            "id": 1,
+            "title": "Software Engineering",
+            "requirements": "This is test job requirment",
+            "description": "This is a test job",
+            "departmentId": 4,
+            "department": {
+                "id": 4,
+                "title": "Developer"
+            },
+            "employmentTypeId": 3,
+            "employmentType": {
+                "id": 3,
+                "title": "Part time"
+            },
+            "locationTypeId": 1,
+            "locationType": {
+                "id": 1,
+                "title": "Remote"
+            },
+            "salary": "20000",
+            "experience": "So one that have sense",
+            "vacancy": null,
+            "phoneNumber": "08148115883",
+            "email": "emmanuelsoligbo@gmail.com",
+            "address": "On the cloud",
+            "city": "Delta",
+            "state": null,
+            "country": "Nigeria",
+            "deadline": "2024-07-18T00:00:00.000Z",
+            "datePosted": null,
+            "dateModified": "2024-07-04T08:21:20.504Z",
+            "dateCreated": "2024-07-04T08:21:20.504Z"
+        }
+    ],
+    "meta": {
+        "total": 2
+    }
+}
