@@ -10,7 +10,7 @@ import ServiceStar from "/Home-page/services/serviceBg-Star.svg";
 import { GoHorizontalRule } from "react-icons/go";
 import { Footer } from "../component/Footer/Footer";
 
-export const Home = () => {
+export const Index = () => {
   return (
     <>
       <code className="font-sans absolute ipad:top-20">
