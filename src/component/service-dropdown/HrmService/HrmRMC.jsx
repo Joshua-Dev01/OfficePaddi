@@ -13,7 +13,7 @@ export const HrmRMC = () => {
             <h1 className="text-2xl text-green-600 whitespace-nowrap">
               Recruit
             </h1>
-            <p className="sr:w-[100%]">
+            <p className="sr:w-[100%]  sr:px-9">
               Attract and hire top talent with our streamlined recruitment
               tools. Post job listings, manage applications, and communicate
               with candidates to build a strong and capable team.
@@ -25,17 +25,17 @@ export const HrmRMC = () => {
               </NavLink>
             </button>
           </div>
-          <img src={recruit} alt="" className="w-[40%] ms:w-[100%] " />
+          <img src={recruit} alt="" className="w-[40%] ms:w-[100%]  sr:px-9 " />
         </div>
 
         {/* ***********************MANAGE************************* */}
         <div className="flex items-center my-20 justify-center mx-20 gap-16 ms:flex-wrap-reverse sr:mx-0">
-          <img src={manage} alt="" className="w-[40%] ms:w-[100%] " />
+          <img src={manage} alt="" className="w-[40%] ms:w-[100%] sr:px-9 " />
           <div>
             <h1 className="text-2xl text-green-600 whitespace-nowrap">
               Manage
             </h1>
-            <p className="sr:w-[100%]">
+            <p className="sr:w-[100%]  sr:px-9">
               Effectively oversee your workforce with our comprehensive
               management features. You can track employee performance, manage
               schedules, and facilitate continuous development to ensure your
@@ -55,7 +55,7 @@ export const HrmRMC = () => {
             <h1 className="text-2xl text-green-600 whitespace-nowrap">
               Comply
             </h1>
-            <p className="sr:w-[100%]">
+            <p className="sr:w-[100%]  sr:px-9">
               Stay compliant with the latest HR regulations and standards. Our
               compliance tools help you manage documentation, track mandatory
               training, and maintain accurate records, safeguarding your
@@ -68,7 +68,7 @@ export const HrmRMC = () => {
               </NavLink>
             </button>
           </div>
-          <img src={comply} alt="" className="w-[40%] ms:w-[100%] " />
+          <img src={comply} alt="" className="w-[40%] ms:w-[100%]  sr:px-9" />
         </div>
       </div>
     </>

@@ -9,11 +9,12 @@ export default {
         bs: { max: "1100px" },
         lap: { max: "970px" },
         ipad: { max: "900px" },
+        sr: { max: "600px" },
         sm: { max: "550px" },
         xsm: { max: "500px" },
         sv: { max: "1000px" },
         mv: { max: "400px" },
-        sr: { max: "372px" },
+       
       },
       colors: {
         'light-gray': '#F9F9F9',

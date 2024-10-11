@@ -48,7 +48,7 @@ export const StockMgt = () => {
 
         {/* ***********************End Hero section************************* */}
 
-        <div className="flex flex-wrap items-center justify-center gap-32  mt-36 bg-gray py-10 leading-10 text-black ">
+        <div className="flex flex-wrap items-center justify-center gap-32  mt-36 bg-gray py-10 leading-10 text-black sr:gap-10">
           <div>
             <img src={inventoryIcon} alt="" />
             <p className="">Inventory</p>

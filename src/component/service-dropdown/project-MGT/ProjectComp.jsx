@@ -10,7 +10,7 @@ const ProjectComp = () => {
   <p className="text-2xl font-semibold mb-10">
     Our Project Management Features include:
   </p>
-  <div className="grid grid-cols-1 gap-10 mx-4 md:grid-cols-2 lg:grid-cols-4">
+  <div className="grid grid-cols-1 gap-10 mx-4 md:grid-cols-2 lg:grid-cols-4 px-10">
     {/* ************PROJECT***************** */}
     <div className="flex flex-col items-center shadow py-10 px-5 rounded-3xl bg-white">
       <img src={projectIcon} alt="Project Icon" className="mb-3 w-20" />

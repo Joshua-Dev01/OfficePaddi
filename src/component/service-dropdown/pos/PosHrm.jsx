@@ -8,7 +8,7 @@ export const PosHrm = () => {
     <>
  {/* ***********************Sale************************* */}
  <div className='mt-32 lap:text-center'>
- <div className="flex items-center justify-center mx-20 gap-16 ms:flex-wrap sr:mx-0">
+ <div className="flex items-center justify-center mx-20 gap-16 ms:flex-wrap sr:mx-10">
           <div>
             <h1 className="text-2xl text-green-600 whitespace-nowrap">
               sales
@@ -27,7 +27,7 @@ export const PosHrm = () => {
         </div>
 
         {/* ***********************MANAGE************************* */}
-        <div className="flex items-center my-20 justify-center mx-20 gap-16 ms:flex-wrap-reverse sr:mx-0">
+        <div className="flex items-center my-20 justify-center mx-20 gap-16 ms:flex-wrap-reverse sr:mx-10">
         <img src={payment} alt="" className="w-[40%] ms:w-[100%] " />
           <div>
             <h1 className="text-2xl text-green-600 whitespace-nowrap">
@@ -45,7 +45,7 @@ export const PosHrm = () => {
           </div>        
         </div>
           {/* ***********************BILLING************************* */}
-          <div className="flex items-center my-20 justify-center mx-20 gap-16 ms:flex-wrap sr:mx-0">
+          <div className="flex items-center my-20 justify-center mx-20 gap-16 ms:flex-wrap sr:mx-10">
           <div>
             <h1 className="text-2xl text-green-600 whitespace-nowrap">
               Billing

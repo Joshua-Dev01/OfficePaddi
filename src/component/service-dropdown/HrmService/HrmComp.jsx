@@ -10,7 +10,7 @@ const HrmComp = () => {
           <div className="flex flex-col items-center">
             <img src={cloud} alt="" className="mb-3" />
             <p className="font-bold text-[20px] mb-3">HR Cloud</p>
-            <p className="w-[100%]">
+            <p className="w-[100%] mv:px-9">
               Manage all your HR tasks in one place with our secure HR Cloud. We
               ensure your HR data is always accessible and up-to-date
             </p>
@@ -18,7 +18,7 @@ const HrmComp = () => {
           <div className="flex flex-col items-center my-10">
             <img src={portal} alt="" className="mb-3" />
             <p className="font-bold text-[20px] mb-3">Employment Portal</p>
-            <p className="w-[100%]">
+            <p className="w-[100%]  mv:px-9">
               Post job openings, track applications, and communicate with
               candidates seamlessly to find the best talent for your team.
             </p>
@@ -26,7 +26,7 @@ const HrmComp = () => {
           <div className="flex flex-col items-center">
             <img src={Accounting} alt="" className="mb-3" />
             <p className="font-bold text-[20px] mb-3">Accounting</p>
-            <p className="w-[100%]">
+            <p className="w-[100%]  mv:px-9">
               Our accounting feature allows for accurate payroll management,
               ensuring your HR and accounting are always in sync
             </p>

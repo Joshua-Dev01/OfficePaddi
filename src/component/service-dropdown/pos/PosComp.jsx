@@ -7,7 +7,7 @@ const PosComp = () => {
   return (
     <div className="text-center bg-slate-200 py-10">
       <p className="uppercase text-2xl font-semibold mb-10">Our pOS Features include:</p>
-      <div className="grid grid-cols-3 items-center justify-center leading-7 gap-10 mx-24 xs:grid xs:grid-cols-2 xsm:block mv:mx-4 mv:text-center">
+      <div className="grid grid-cols-3 items-center justify-center px-10 gap-10  xs:grid-cols-2 xsm:grid-cols-1 xsm:px-16 ">
         {/* ****************sales******************* */}
         <div className="flex flex-col items-center">
           <img src={Sales} alt="" className="mb-3  w-16" />

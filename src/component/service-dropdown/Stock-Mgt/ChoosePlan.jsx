@@ -5,7 +5,7 @@ const ChoosePlan = () => {
   return (
     <>
     <div className=" py-20">
-    <h1 className="text-center text-3xl font-semibold mb-11">Choose a plan that suits you</h1>
+    <h1 className="text-center text-3xl font-semibold mb-11 whitespace-nowrap sr:px-10">Choose a plan that suits you</h1>
       <section className="flex items-center justify-center gap-10 flex-wrap ">
         {/* ************************HRM********************** */}
         <div className="text-center shadow py-7 px-10 bg-white rounded-2xl">

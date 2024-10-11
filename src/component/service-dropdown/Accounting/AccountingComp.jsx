@@ -8,21 +8,21 @@ import Accountant from "/service-page/service-dropdown/Accounting/accountant.svg
 const AccountingComp = () => {
   return (
     <div className="text-center bg-slate-200 py-10">
-      <p className="uppercase text-2xl font-semibold mb-10">Our Accounting Features include:</p>
-      <div className="grid grid-cols-3 items-center justify-center leading-7 gap-10 mx-24 ipad:grid-cols-2 xs:block xsm:block mv:mx-4 mv:text-center">
+      <p className="uppercase text-2xl font-semibold mb-10 px-10">Our Accounting Features include:</p>
+      <div className="grid grid-cols-3 items-center justify-center leading-7 gap-10 mx-24 ipad:grid-cols-2 xs:block xsm:block mv:text-center">
         {/* ****************BANK******************* */}
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center ">
           <img src={bank} alt="" className="mb-3  w-16" />
           <p className="font-bold text-[20px] mb-3">Banking</p>
-          <p className="w-[100%]">
+          <p className="xsm:w-[20rem]">
           Streamline your financial transactions with our integrated banking tools. Connect your bank accounts, reconcile statements, and manage cash flow with ease
           </p>
         </div>
         {/* ****************SALES******************* */}
-        <div className="flex flex-col items-center my-10">
+        <div className="flex flex-col items-center my-10 mv:my-10">
           <img src={sales} alt="" className="mb-3  w-16" />
           <p className="font-bold text-[20px] mb-3">Sales</p>
-          <p className="w-[100%]">
+          <p className="xsm:w-[20rem]">
           Generate invoices, manage receivables, and monitor sales performance to ensure accurate and timely revenue reporting.
           </p>
         </div>
@@ -30,32 +30,32 @@ const AccountingComp = () => {
         <div className="flex flex-col items-center">
           <img src={expense} alt="" className="mb-3 w-16" />
           <p className="font-bold text-[20px] mb-3">Expenses</p>
-          <p className="w-[100%]">
+          <p className="xsm:w-[20rem]">
           Record, categorize, and track all expenditures to maintain control over your finances and optimize spending.
 
           </p>
         </div>
            {/* ****************PAYROLL******************* */}
-           <div className="flex flex-col items-center">
+           <div className="flex flex-col items-center my-10">
           <img src={payroll} alt="" className="mb-3 w-16" />
           <p className="font-bold text-[20px] mb-3">Payroll</p>
-          <p className="w-[100%]">
+          <p className="xsm:w-[20rem]">
           Calculate salaries, manage employee benefits, and ensure timely payments with minimal effort.
           </p>
         </div>
     {/* ****************Budget******************* */}
-        <div className="flex flex-col items-center">
-          <img src={Budget} alt="" className="mb-3 w-16" />
+        <div className="flex flex-col items-center my-10">
+          <img src={Budget} alt="" className="mb-3 w-16 mv:my-10" />
           <p className="font-bold text-[20px] mb-3">Budget</p>
-          <p className="w-[100%]">
+          <p className="xsm:w-[20rem]">
           Create detailed budgets, track actuals against forecasts, and make informed financial decisions to stay on track
           </p>
         </div>
  {/* ****************Accountant******************* */}
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center ">
           <img src={Accountant} alt="" className="mb-3 w-16" />
           <p className="font-bold text-[20px] mb-3">Accountant</p>
-          <p className="w-[100%]">
+          <p className="xsm:w-[20rem] ">
           Share access to your financial data, streamline audits, and ensure compliance with all accounting standards 
           </p>
         </div>

@@ -8,16 +8,17 @@ export const About = () => {
         <div>
           {/* *****************ABOUT********************* */}
           <div className="relative top-[10rem] ">
-            <div className="flex space-x-5 xs:flex-wrap">
+            <div className="flex space-x-5 xs:flex-wrap sr:space-x-0">
               <div>
                 <img src={AboutImg} alt="" className="w-[70rem] xs:w-[30rem]" />
               </div>
 
-              <div className="xs:mt-10 mt-20">
+              <div className="xs:mt-10 mt-20  mx-auto ">
                 <h1 className="whitespace-nowrap text-4xl font-semibold text-[#0D333E]">
                   About Us
                 </h1>
-                <p className=" w-[80%] sr:w-[100%]">
+
+                <p className="w-[80%] sr:w-[100%] sr:px-10 sr:text-center">
                   We are a team of experts who understand your challenges and
                   are dedicated to developing innovative solutions that will
                   simplify business management for you and boost your bottom
@@ -53,7 +54,7 @@ export const About = () => {
             {/* **********************MISSION AND VISION***************************** */}
             <div className="my-20">
               {/* **********************MISSION***************************** */}
-              <div className="flex items-center justify-center mx-16 gap-16 ms:flex-wrap sr:mx-0">
+              <div className="flex items-center justify-center mx-16 gap-16 ms:flex-wrap sr:mx-17">
                 <div>
                   <h1 className="text-3xl font-semibold whitespace-nowrap">
                     Our Mission
@@ -70,7 +71,7 @@ export const About = () => {
 
               {/* **********************VISION***************************** */}
 
-              <div className="flex items-center mb-60 justify-center mx-16 gap-16 ms:flex-wrap-reverse ms:mt-10 sr:mx-0">
+              <div className="flex items-center mb-60 justify-center mx-16 gap-16 ms:flex-wrap-reverse ms:mt-10 sr:mx-17">
                 <img src="dash.svg" alt="" className="w-[40%] ms:w-[100%]" />
                 <div>
                   <h1 className="text-3xl font-semibold whitespace-nowrap">

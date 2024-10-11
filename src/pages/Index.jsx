@@ -17,7 +17,7 @@ export const Index = () => {
         {/* ***************HERO SECTION****************** */}
         <div className=" bg-[#0D333E] w-[100%] h-full ipad:pt-24  mv:text-[20px] pb-10 ipad:text-center ">
           <div className="flex items-center justify-between xs:text-center  ipad:flex-wrap ipad:justify-center ">
-            <div className="pl-20 mx-10 sr:mx-0 ipad:pl-0">
+            <div className="pl-20 mx-10  ipad:pl-0">
               <h1 className="text-4xl text-white leading-[3.5rem] whitespace-nowrap">
                 Your Complete Business <br /> Management Suite
               </h1>
@@ -30,7 +30,7 @@ export const Index = () => {
             </div>
 
             <div className="hidden  ipad:mx-4 ipad:flex items-center justify-center mt-10">
-              <img src={dash} alt="" className="ipad:w-[70%] mv:w-[100%]  " />
+              <img src={dash} alt="" className="ipad:w-[70%] mv:w-[100%] mv:px-7 " />
             </div>
 
             <div className="Hero-white-bg">
@@ -46,7 +46,7 @@ export const Index = () => {
 
         {/*  ***************WHY CHOOSE US******************  */}
         <div>
-          <div className="w-full mt-32 flex items-center justify-between px-20 lap:justify-center gap-64 lap:mt-52 lap:flex-wrap lap:gap-10 mv:px-2 mv:text-center">
+          <div className="w-full mt-32 flex items-center justify-between px-20 lap:justify-center gap-64 lap:mt-52 lap:flex-wrap lap:gap-10 sr:px-8 sr:text-center">
             <div className="-mt-40 lap:-m-0">
               <h1 className="text-[#2D3250] text-3xl mb-10 lap:text-center whitespace-nowrap">
                 Why
@@ -66,7 +66,7 @@ export const Index = () => {
             </div>
 
             <div className="flex gap-10 sm:mb-20 sm:text-center xsm:items-center justify-center sm:gap-0">
-              <img src={Chooseimg} alt="" className="w-[9rem] mv:hidden" />
+              <img src={Chooseimg} alt="" className="w-[9rem] xs:hidden" />
               <section className="">
                 <div className="w-[100%]">
                   <h1 className="text-2xl font-semibold">Accuracy </h1>
@@ -103,19 +103,19 @@ export const Index = () => {
               </section>
             </div>
           </div>
-          <img src={Chooselines} alt="" className=" lap:w-72" />
+          <img src={Chooselines} alt="" className=" lap:w-72 mv:hidden" />
         </div>
         {/*  ***************END OF WHY CHOOSE US******************  */}
 
         {/*  *************** SERVICES ******************  */}
 
-        <div className="bg-[#E9ECED] py-20 my-20 mv:text-center">
+        <div className="bg-[#E9ECED] py-20 my-20 sr:text-center">
           <h1 className="text-[#2D3250] text-3xl text-center mb-20 ">
             <span className="border-b-2 border-[#024D39]">Our </span> Services
           </h1>
 
           {/* ********HRM & CRM************ */}
-          <section className="flex items-center justify-center gap-44 px-20 sv:flex-wrap sv:gap-10 mv:px-4">
+          <section className="flex items-center justify-center gap-44 px-20 sv:flex-wrap sv:gap-10 sr:px-10">
             <div>
               <img src={Hrmone} alt="" className="-z-50 ml-32 " />
               <h1 className="my-5 font-bold text-2xl te"> HRM & CRM</h1>
@@ -137,7 +137,7 @@ export const Index = () => {
           </section>
 
           {/* ********POS & PROJECT MGT************ */}
-          <section className="flex items-center justify-center my-28 gap-44 px-20 sv:flex-wrap-reverse sv:gap-10 mv:px-4">
+          <section className="flex items-center justify-center my-28 gap-44 px-20 sv:flex-wrap-reverse sv:gap-10 sr:px-10">
             <img src={dash} alt="" className="w-[25rem] z-10" />
             <div>
               <img src={pos_two} alt="" className=" ml-32" />
@@ -158,7 +158,7 @@ export const Index = () => {
           </section>
 
           {/* ********STOCK MGT & ACCOUNTING************ */}
-          <section className="flex items-center justify-center gap-44 px-20 sv:flex-wrap sv:gap-10 mv:px-4">
+          <section className="flex items-center justify-center gap-44 px-20 sv:flex-wrap sv:gap-10 sr:px-10">
             <div>
               <img src={stockmgt} alt="" className=" ml-32" />
               <h1 className="my-5 font-bold text-2xl whitespace-nowrap">
@@ -203,7 +203,7 @@ export const Index = () => {
             Steps to <span className="border-b-4 border-[#EA5317]">use</span>
           </h1>
 
-          <section className="grid grid-cols-3 mx-16 gap-14 lap:grid-cols-2 my-20 lap:mx-5 xsm:grid-cols-1 mv:text-center">
+          <section className="grid grid-cols-3 mx-16 gap-14 lap:grid-cols-2 my-20 lap:mx-5 xsm:grid-cols-1 mv:text-center mv:px-7">
             <div>
               <h1 className="flex text-[20px] font-medium mb-5 text-[#00BF6F]">
                 01

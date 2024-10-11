@@ -7,11 +7,12 @@ const HrmComp = () => {
   return (
     <>
       <div className=" items-center justify-center mt-20 text-center py-10">
-        <h1 className="text-center font-semibold text-2xl">
+        <h1 className="text-center font-semibold text-2xl mb-10 sr:px-7">
           Our Stock Management Features include:
         </h1>
-        <div className="flex items-center justify-center leading-7 gap-10 mx-24 xs:grid xs:grid-cols-2 xsm:block mv:mx-4 mv:text-center">
-          <div className="flex flex-col items-center shadow py-10 px-5 rounded-3xl">
+        <div className="grid grid-cols-1 gap-10 mx-4 md:grid-cols-2 lg:grid-cols-4 px-10">
+
+          <div className="flex flex-col items-center my-10 shadow py-10 px-5 rounded-3xl">
             <img src={sales} alt="" className="mb-3 w-20" />
             <p className="font-bold text-[20px] mb-3">Sales</p>
             <p className="w-[100%]">
@@ -27,7 +28,7 @@ const HrmComp = () => {
               ensure you always have the right products available.
             </p>
           </div>
-          <div className="flex flex-col items-center shadow py-10 px-5 rounded-3xl">
+          <div className="flex flex-col items-center my-10 shadow py-10 px-5 rounded-3xl">
             <img src={production} alt="" className="mb-3 w-20" />
             <p className="font-bold text-[20px] mb-3">Production</p>
             <p className="w-[100%]">
@@ -35,7 +36,7 @@ const HrmComp = () => {
               timely delivery of your products.
             </p>
           </div>
-          <div className="flex flex-col items-center shadow py-10 px-5 rounded-3xl">
+          <div className="flex flex-col items-center my-10 shadow py-10 px-5 rounded-3xl">
             <img src={report} alt="" className="mb-3 w-20" />
             <p className="font-bold text-[20px] mb-3">Reports</p>
             <p className="w-[100%]">
